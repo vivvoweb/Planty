@@ -34,34 +34,39 @@ do_action( 'neve_after_primary' );
  * @param bool   $status Whether the component should be displayed or not.
  * @param string $context The context name.
  */
-if ( apply_filters( 'neve_filter_toggle_content_parts', true, 'footer' ) === true ) {
+if ( apply_filters( 'neve_filter_toggle_content_parts', false, 'footer' ) === true ) {
 
-	/**
-	 * Executes actions before the footer was rendered.
-	 *
-	 * @since 1.0.0
-	 */
-	do_action( 'neve_before_footer_hook' );
+    /**
+     * Executes actions before the footer was rendered.
+     *
+     * @since 1.0.0
+     */
+    do_action( 'neve_before_footer_hook' );
 
-	/**
-	 * Executes the rendering function for the footer.
-	 *
-	 * @since 1.0.0
-	 */
-	do_action( 'neve_do_footer' );
+    
 
-	/**
-	 * Executes actions after the footer was rendered.
-	 *
-	 * @since 1.0.0
-	 */
-	do_action( 'neve_after_footer_hook' );
+    /**
+     * Executes actions after the footer was rendered.
+     *
+     * @since 1.0.0
+     */
+    do_action( 'neve_after_footer_hook' );
 }
 ?>
 
 </div><!--/.wrapper-->
 <?php
+if (has_nav_menu('footer-menu')) {
+    wp_nav_menu(array(
+        'theme_location' => 'footer-menu',
+        'container' => 'div',
+        'container_class' => 'footer-menu-container',
+        'menu_class' => 'footer-menu',
+    ));
+}
+?>
 
+<?php
 wp_footer();
 
 /**
