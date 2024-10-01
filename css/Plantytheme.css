@@ -32,6 +32,7 @@
     background: #FFFFFF;
     height: 80px;
  }
+
  .site-logo img {
     display: block !important;
  margin: 0 auto !important;
@@ -88,6 +89,10 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 19.2px;
+ }
+ /* Change background color on hover "Commander" */
+ #menu-item-1462 a:hover {
+    background-color: #C02E44; 
  }
  .builder-item {
     margin: 4px 0 !important;
