@@ -6,6 +6,27 @@
     background-color: #fff;
     font-family: Syne;
  }
+ /* Styles pour tablettes */
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+ }
+ 
+ /* Styles pour smartphones */
+ @media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+ }
+ 
+ /* Styles pour petits écrans (320 pixels et plus) */
+ @media (max-width: 480px) {
+    body {
+        font-size: 10px;
+    }
+ }
+ 
  /* Header  */
 .header--row-inner.header-main-inner {
     background: #FFFFFF;
