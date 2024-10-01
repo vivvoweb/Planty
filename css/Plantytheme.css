@@ -224,6 +224,16 @@
     display: block !important;
     margin: 0 auto !important;
  }
+ .btn:hover, 
+.button.button-primary:hover, 
+.is-style-primary .wp-block-button__link:hover, 
+.wp-block-search .wp-block-search__button:hover, 
+button:hover, 
+input[type=button]:hover, 
+input[type=reset]:hover, 
+input[type=submit]:hover {
+    background-color: #C02E44 !important;
+}
   /*  Votre commande */
  input.commandePlanty {
     display: block;
