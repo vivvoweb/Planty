@@ -43,6 +43,47 @@
     text-align: left;
     text-decoration: none;
  }
+ /* Nous contacter css 
+*/
+ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    height: 71px;
+    top: 1154px;
+    left: 529px;
+    gap: 0px;
+    border-radius: 7px 0px 0px 0px;
+    opacity: 0px;
+ }
+ 
+ input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+ }
+ 
+ input[type="submit"] {
+    background-color: #e3b8ac; /* Button color similar to image */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif;
+    width: 198px;
+    height: 55px;
+    top: 1164px;
+    left: 631px;
+    padding: 9px 57px 9px 56px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+ }
+ 
+ input[type="submit"]:hover {
+    background-color: #d9a79a;
+ }
 /* LES Goûts
    Nous avons une saveur pour chaque moment de votre journée.
 */
@@ -73,6 +114,12 @@
     text-align: left;
     color: #000000;
 }
+/* */
+.btn, .button.button-primary, .is-style-primary .wp-block-button__link, .wp-block-search .wp-block-search__button, button, input[type=button], input[type=reset], input[type=submit] {
+    background: #E0B9B4 !important;
+    display: block !important;
+    margin: 0 auto !important;
+ }
  .footer-menu-container {
     height: 60px;
     background-color: #ffffff;
