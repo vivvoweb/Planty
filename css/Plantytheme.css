@@ -39,9 +39,29 @@
     font-family: Syne;
     font-size: 16px;
     font-weight: 400;
-    line-height: 19.2px;
+    line-height: 19.2px; 
     text-align: left;
     text-decoration: none;
+ }
+/* LES Goûts
+   Nous avons une saveur pour chaque moment de votre journée.
+*/
+ .premium-banner-animation1 .premium-banner-ib-desc {
+    top: auto;
+    bottom: 0;
+    min-height: 25%;
+    height: auto;
+    max-height: 100%;
+    text-align: CENTER;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
  }
  .footer-menu-container {
     height: 60px;
