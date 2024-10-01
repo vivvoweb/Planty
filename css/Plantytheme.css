@@ -95,6 +95,11 @@
     justify-content: center;
     align-items: center;
  }
+ .elementor-1407 .elementor-element.elementor-element-e784cc6 .elementor-divider {
+    padding-block-start: 15px;
+    padding-block-end: 15px;
+    display: contents;
+}
   /* Centers content horizontally */
  .item {
     display: flex;
