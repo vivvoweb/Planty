@@ -73,6 +73,7 @@
     text-align: left;
     text-decoration: none;
  }
+  
  /* Style pour "Commander" navigation */
 #menu-item-1462 a {
     background-color: #DC9F96;
@@ -182,6 +183,14 @@
  }
 /* LES Goûts Nous avons une saveur pour chaque moment de votre journée.*/
 
+.elementor-986 .elementor-element.elementor-element-b1c61f5 .elementor-button {
+    background-color: #E0B9B4;
+    font-family: "Syne", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 37px;
+    width: 198px;
+}
  .premium-banner-animation1 .premium-banner-ib-desc {
     top: auto;
     bottom: 0;
