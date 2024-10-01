@@ -63,6 +63,16 @@
     box-sizing: border-box;
     height: 100%;
  }
+ /*  Nous contacter Les champs
+  */
+ label {
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
  .footer-menu-container {
     height: 60px;
     background-color: #ffffff;
