@@ -136,7 +136,7 @@
     text-align: left;
     color: #000000;
 }
-/* */
+/*  styliser le bouton Commander dans formulaire*/
 .btn, .button.button-primary, .is-style-primary .wp-block-button__link, .wp-block-search .wp-block-search__button, button, input[type=button], input[type=reset], input[type=submit] {
     background: #E0B9B4 !important;
     display: block !important;
