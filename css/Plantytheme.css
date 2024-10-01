@@ -126,8 +126,8 @@
     box-sizing: border-box;
     height: 100%;
  }
- /*  Nous contacter Les champs
-  */
+ /*  Nous contacter Les champs*/
+
  label {
     font-family: Syne;
     font-size: 20px;
@@ -141,6 +141,26 @@
     background: #E0B9B4 !important;
     display: block !important;
     margin: 0 auto !important;
+ }
+  /*  Votre commande */
+ input.commandePlanty {
+    display: block;
+    margin: 0 auto;
+    width: 39px;
+    height: 56px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    display: inline-block;
+ }
+ input.commandePlanty::placeholder {
+    color: #000000; 
+    font-size: 14px; 
+    text-align: center; 
+    opacity: 1; 
  }
  .footer-menu-container {
     height: 60px;
