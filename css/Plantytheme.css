@@ -162,6 +162,52 @@
     text-align: center; 
     opacity: 1; 
  }
+ /* formulaire contact -Vos informations _ Livraison */
+ .form-container {
+    background-color: #3B8E46; 
+    padding: 20px;
+    border-radius: 10px;
+ }
+ 
+ .form-row {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 26px;
+ }
+ .nav-ul li > .wrap {
+    display: flex !important;
+    align-items: center !important;
+    position: relative !important;
+    padding: 0 0px !important;
+ }
+ 
+ 
+ .form-column {
+    width: 45%;
+ }
+ 
+ /* Separator Line */
+ .form-row::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: white;
+    transform: translateX(-50%);
+ }
+ 
+ .form-column h2 {
+ color: #FFFFFF;
+    font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+ }
+ 
  .footer-menu-container {
     height: 60px;
     background-color: #ffffff;
