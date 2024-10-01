@@ -23,3 +23,9 @@ function Planty_add_admin_link_to_menu($items, $args) {
     }
     return $items;
 }
+function register_footer_menu() {
+    register_nav_menus(array(
+        'footer-menu' => __('Menu de Footer', 'text_domain')
+    ));
+}
+add_action('init', 'register_footer_menu');
