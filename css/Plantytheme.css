@@ -32,6 +32,10 @@
     background: #FFFFFF;
     height: 80px;
  }
+ .container {
+    width: 100%;
+    margin: 0 auto;
+}
  
  /* General Navigation  */
  .wrap::after {
