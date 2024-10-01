@@ -43,6 +43,28 @@
     text-align: left;
     text-decoration: none;
  }
+ /* Style pour "Commander" navigation */
+#menu-item-1462 a {
+    background-color: #DC9F96;
+    color: white;
+    padding: 10px 20px;
+    width: 236px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+     font-family: "Syne", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+ }
+ 
+ /* Hover  "Commander"  */
+ #menu-item-966 a:hover {
+    background-color: #C02E44; /* Change background color on hover */
+ }
  /* Nous contacter css 
 */
  input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
