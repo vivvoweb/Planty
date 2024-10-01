@@ -90,12 +90,12 @@
     line-height: 19.2px;
  }
  .builder-item {
-    margin: 4px 0;
-    position: relative;
-    min-height: 1px;
-    padding-right: 0;  /* Removed  padding */
-    padding-left: 0;   /* Removed  padding */
- }
+    margin: 4px 0 !important;
+    position: relative !important;
+    min-height: 1px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
  .elementor-widget-container {
     display: flex;
     justify-content: center;
